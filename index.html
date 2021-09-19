@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fancy Slider</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        img {
+            width: 500px;
+        }
+
+        #btn-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Fancy Slider</h1>
+    </header>
+
+    <div class="container">
+        <img id="slider" src="images/img-1.jpg" alt="">
+    </div>
+
+    <div id="btn-container">
+        <button id="prev" onclick="slideChange(false)">prev</button>
+        <button id="next" onclick="slideChange(true)">next</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
