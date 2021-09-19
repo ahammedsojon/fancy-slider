@@ -31,5 +31,5 @@ const slideChange = (changeIndex) => {
 setInterval(() => {
     imgIndex++;
     slider();
-}, 3000);
+}, 2000);
 
