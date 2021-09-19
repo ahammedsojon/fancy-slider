@@ -19,8 +19,8 @@ const slider = () => {
     const imgUrl = images[imgIndex];
     img.setAttribute('src', imgUrl);
 }
-const slideChange = (changeIndex) => {
-    if (changeIndex) {
+const slideChange = (increaseIndex) => {
+    if (increaseIndex) {
         imgIndex++;
         slider();
     } else {
